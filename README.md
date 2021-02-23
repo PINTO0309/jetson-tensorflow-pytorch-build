@@ -10,24 +10,10 @@ Next.
 ```bash
 $ docker run -it --rm pinto0309/l4t-base:r32.5.0
 ```
-or
-```
-$ docker run -it --rm \
-    -e LOCAL_UID=$(id -u $USER) \
-    -e LOCAL_GID=$(id -g $USER) \
-    pinto0309/l4t-base:r32.5.0 bash
-```
 
 ### Usage2. Launching the Jetson Nano (aarch64) compilation environment on an EC2 aarch64 machine
 ```bash
 $ docker run -it --rm pinto0309/l4t-base:r32.5.0
-```
-or
-```bash
-$ docker run -it --rm \
-    -e LOCAL_UID=$(id -u $USER) \
-    -e LOCAL_GID=$(id -g $USER) \
-    pinto0309/l4t-base:r32.5.0 bash
 ```
 
 ## 2. Example

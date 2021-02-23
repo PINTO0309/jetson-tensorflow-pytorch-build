@@ -7,7 +7,7 @@ RUN apt update \
      curl zip unzip libtool swig zlib1g-dev pkg-config libprotoc-dev \
      git wget xz-utils python3-mock libpython3-dev libhdf5-dev \
      libpython3-all-dev python3-pip g++ gcc make protobuf-compiler \
-     pciutils cpio gosu git liblapack-dev liblapacke-dev \
+     pciutils cpio gosu git liblapack-dev liblapacke-dev sox libsox-dev \
     && pip3 install --upgrade pip \
     && git clone -b v1.8.1 https://github.com/onnx/onnx.git \
     && cd onnx \

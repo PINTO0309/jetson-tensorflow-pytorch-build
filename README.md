@@ -32,6 +32,7 @@ $ docker run -it --rm \
 
 ## 2. Example
 ### 2-1. TensorFlow build example
+**`--local_ram_resources=n`** is the maximum size of RAM that the build process is allowed to use. **`--local_cpu_resources`** is the number of parallel execution of the build process. For x86 CPUs with hyper-threading enabled, the maximum number is twice the number of cores. For x86 CPUs with hyper-threading disabled, the number of cores is the maximum number. Note that a single build process can consume up to 2GB~4GB of RAM.
 ```
 # TENSORFLOWVER=v2.4.1
 

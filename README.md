@@ -33,7 +33,7 @@ $ docker run -it --rm \
 ## 2. Example
 ### 2-1. TensorFlow build example
 ```
-TENSORFLOWVER=v2.4.1
+# TENSORFLOWVER=v2.4.1
 
 # git clone -b ${TENSORFLOWVER} https://github.com/tensorflow/tensorflow.git
 # cd tensorflow
@@ -109,9 +109,9 @@ Configuration finished
 ```
 ### 2-2. PyTorch build example
 ```
-TORCHVER=v1.7.1
-VISIONVER=v0.8.2
-AUDIOVER=v0.7.2
+# TORCHVER=v1.7.1
+# VISIONVER=v0.8.2
+# AUDIOVER=v0.7.2
 
 # git clone -b ${TORCHVER} --recursive https://github.com/pytorch/pytorch
 # cd /pytorch \

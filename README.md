@@ -1,6 +1,7 @@
 # jetson-tensorflow-pytorch-build
 Provides an environment for compiling TensorFlow or PyTorch with CUDA for aarch64 on an x86 machine. This is for Jetson.
 
+## 1. Usage
 ### Usage1. Launching the Jetson Nano (aarch64) cross-compilation environment on an x86 machine
 ```bash
 $ docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
@@ -29,8 +30,9 @@ $ docker run -it --rm \
     pinto0309/l4t-base:r32.5.0 bash
 ```
 
-### TensorFlow build example
-```bash
+## 2. Example
+### 2-1. TensorFlow build example
+```
 TENSORFLOWVER=v2.4.1
 
 # git clone -b ${TENSORFLOWVER} https://github.com/tensorflow/tensorflow.git
@@ -105,8 +107,8 @@ Configuration finished
   #--local_cpu_resources=6 \
   //tensorflow/tools/pip_package:build_pip_package
 ```
-### PyTorch build example
-```bash
+### 2-2. PyTorch build example
+```
 TORCHVER=v1.7.1
 VISIONVER=v0.8.2
 AUDIOVER=v0.7.2

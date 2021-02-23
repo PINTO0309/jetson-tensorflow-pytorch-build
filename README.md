@@ -1,5 +1,5 @@
 # jetson-tensorflow-pytorch-build
-Provides an environment for compiling TensorFlow or PyTorch with CUDA for aarch64 on an x86 machine. This is for Jetson.
+Provides an environment for compiling TensorFlow or PyTorch with CUDA for aarch64 on an x86 machine. This is for Jetson. If you build using an EC2 m6g.16xlarge (aarch64) instance, TensorFlow can be fully built in about 30 minutes.
 
 ## 1. Usage
 ### Usage1. Launching the Jetson Nano (aarch64) cross-compilation environment on an x86 machine

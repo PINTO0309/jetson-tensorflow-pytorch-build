@@ -42,8 +42,4 @@ RUN gdown --id 1yCTPM2aAoc0N4_sFIziPFEOr6c7so0bS \
     && chmod +x bazel \
     && mv ./bazel /usr/local/bin
 
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-RUN chmod +x /usr/local/bin/entrypoint.sh
-ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
-
 WORKDIR /workspace
